@@ -1,0 +1,34 @@
+public class TriangleDrawer {
+   /** 
+    public static void main(String[] args){
+        int row = 0;
+        int SIZE = 5;
+        while (row < SIZE){
+            int col = 0;
+            while(col <= row){
+                System.out.print('*');
+                col = col + 1;
+            }
+            System.out.println();
+            row = row + 1;
+        }
+    }
+    */
+    public static void main(String[] args){
+        drawTriangle(10);
+    }
+    public static void drawTriangle(int N){
+        int row = 0;
+        int SIZE = N;
+        while (row < SIZE){
+            int col = 0;
+            while(col <= row){
+                System.out.print('*');
+                col = col + 1;
+            }
+            System.out.println();
+            row = row + 1;
+        }
+    }
+
+}
